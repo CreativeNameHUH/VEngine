@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\VEngine.cpp">
+      <Filter>src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\WindowManager.cpp">
+      <Filter>src\engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\engine\VEngine.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine\WindowManager.h">
+      <Filter>include\engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{f63f2aed-01b9-4256-b8de-27f41ed7c9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\engine">
+      <UniqueIdentifier>{40038206-d8d1-4dfa-b767-791ab0688dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{129bdb71-0574-4053-a570-47ea3c217fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine">
+      <UniqueIdentifier>{2519551e-6374-4c5f-ae0b-1404ef7f5bc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
